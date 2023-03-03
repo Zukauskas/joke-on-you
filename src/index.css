@@ -12,14 +12,35 @@
     align-items: center;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
 h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
 }
 
 .card {
-    border: 2px solid white;
-    display: flex;
-    flex-direction: column;
+    background-color: #fff;
     max-width: 800px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.card p:first-child {
+    font-weight: bold;
 }
