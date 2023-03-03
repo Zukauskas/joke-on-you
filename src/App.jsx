@@ -40,7 +40,7 @@ function App() {
                             return (
                                 <div key={item.id} className='card'>
                                     <p> Setup: {item.setup}</p>
-                                    <p> Delivery: {item.delivery}</p>
+                                    <p> Delivery: {item.delivery}😄</p>
                                 </div>
                             );
                         }
